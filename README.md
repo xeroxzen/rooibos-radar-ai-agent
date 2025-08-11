@@ -6,6 +6,7 @@ The agent automates **topic discovery**, **research**, **draft writing**, and **
 ---
 
 ## 🚀 Features
+
 - Collects trending African tech news from RSS feeds & curated sources.
 - Summarizes and indexes content in a vector database.
 - Uses LLM + RAG to generate newsletter-ready drafts in the Rooibos Radar voice.
@@ -15,6 +16,7 @@ The agent automates **topic discovery**, **research**, **draft writing**, and **
 ---
 
 ## 🛠 Tech Stack
+
 - **Backend**: Python, FastAPI
 - **Worker Queue**: Celery + Redis
 - **Vector DB**: Chroma
@@ -25,6 +27,8 @@ The agent automates **topic discovery**, **research**, **draft writing**, and **
 ---
 
 ## 📂 Project Structure
+
+```bash
 rooibos-radar-ai-agent/
 │
 ├── src/                     # All application source code
@@ -67,3 +71,4 @@ rooibos-radar-ai-agent/
 ├── README.md                 # Project documentation
 ├── .gitignore
 └── LICENSE
+```
