@@ -17,8 +17,8 @@ The agent automates **topic discovery**, **research**, **draft writing**, and **
 ## 🛠 Tech Stack
 - **Backend**: Python, FastAPI
 - **Worker Queue**: Celery + Redis
-- **Vector DB**: Chroma / Pinecone
-- **Embeddings**: OpenAI / Cohere
+- **Vector DB**: Chroma
+- **Embeddings**: OpenAI
 - **Scraping**: Playwright / Newspaper3k
 - **Deployment**: Docker, Render/Vercel
 
